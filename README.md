@@ -1,31 +1,34 @@
 # Calculator App
 
-A modern, responsive calculator built with React, TypeScript, and Tailwind CSS. Features a clean interface with dark/light theme support, calculation history, and keyboard shortcuts.
+A modern and responsive calculator application built with React, TypeScript, and Vite. Features a clean interface with dark/light theme support and calculation history.
 
 ## Features
 
-- **Basic Calculator Operations**: Addition, subtraction, multiplication, and division
-- **Dark/Light Theme**: Toggle between themes with system preference detection
-- **Calculation History**: Keep track of your previous calculations with persistent storage
-- **Keyboard Support**: Use your keyboard for faster input
-- **Responsive Design**: Works perfectly on desktop and mobile devices
-- **Modern UI**: Clean, intuitive interface built with Tailwind CSS and Radix UI components
+- 🔢 Basic calculator operations (add, subtract, multiply, divide)
+- 🌙 Dark/light theme toggle with system preference detection
+- 📜 Calculation history with persistent storage
+- ⌨️ Full keyboard support for faster input
+- 📱 Responsive design that works on all devices
+- 🎨 Modern UI with Tailwind CSS and smooth animations
+- ⚡ Fast development with Vite
+- 🔧 TypeScript for better development experience
 
 ## Tech Stack
 
-- **React 19** - Modern React with latest features
-- **TypeScript** - Type-safe development
-- **Vite** - Fast build tool and dev server
-- **Tailwind CSS** - Utility-first CSS framework
+- **React 19** - Frontend framework
+- **TypeScript** - Type safety
+- **Vite** - Build tool and dev server
+- **Tailwind CSS** - Styling
 - **Radix UI** - Accessible UI components
 - **Lucide React** - Beautiful icons
+- **React Icons** - Additional icon library
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (v16 or higher)
-- npm or yarn
+- Node.js (version 18 or higher)
+- npm
 
 ### Installation
 
@@ -48,58 +51,51 @@ npm install
 npm run dev
 ```
 
-4. Open your browser and visit `http://localhost:5173`
+4. Open your browser and navigate to `http://localhost:5173`
 
 ## Available Scripts
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-
-## Keyboard Shortcuts
-
-- **Numbers (0-9)**: Input numbers
-- **Operators (+, -, \*, /)**: Perform operations
-- **Enter or =**: Calculate result
-- **Backspace**: Delete last character
-- **Escape**: Clear calculator
+- `npm run dev` - Start the development server
+- `npm run build` - Build the project for production
+- `npm run lint` - Run ESLint to check for code issues
+- `npm run preview` - Preview the production build locally
 
 ## Project Structure
 
 ```
 src/
-├── components/
-│   ├── ui/           # Reusable UI components
-│   ├── ButtonGrid.tsx    # Calculator button layout
-│   ├── Calculator.tsx    # Main calculator logic
-│   ├── Display.tsx       # Calculator display
-│   ├── History.tsx       # Calculation history
-│   └── ThemeToggle.tsx   # Theme switcher
+├── components/          # React components
+│   ├── ui/             # Reusable UI components
+│   ├── ButtonGrid.tsx  # Calculator button layout
+│   ├── Calculator.tsx  # Main calculator logic
+│   ├── Display.tsx     # Calculator display
+│   ├── History.tsx     # Calculation history
+│   └── ThemeToggle.tsx # Theme switcher
 ├── lib/
-│   └── utils.ts      # Utility functions
-└── App.tsx           # Main app component
+│   └── utils.ts        # Utility functions
+├── App.tsx             # Main app component
+└── main.tsx            # App entry point
 ```
 
-## Features in Detail
+## Usage
 
-### Theme Support
-
-The app automatically detects your system's dark/light mode preference and allows manual toggling. Your preference is saved to localStorage.
-
-### History Management
-
-Up to 10 recent calculations are stored and can be reused by clicking on them. History persists between sessions.
-
-### Error Handling
-
-Division by zero and other edge cases are handled gracefully.
+1. **Perform Calculations**: Use the number buttons and operators to perform calculations
+2. **View History**: Previous calculations are automatically saved and displayed below the calculator
+3. **Use Keyboard**: Use your keyboard for faster input (numbers, operators, Enter for equals, Escape to clear)
+4. **Toggle Theme**: Click the theme toggle button to switch between dark and light modes
+5. **Reuse Results**: Click on any item in the history to use that result in a new calculation
 
 ## Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 🧠 Project Overview
+A Calculator app built with React.  
+🌤 **[View Live Demo →](https://calculator-86en.vercel.app/)**
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
