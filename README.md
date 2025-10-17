@@ -96,10 +96,3 @@ src/
 ## 🧠 Project Overview
 A Calculator app built with React.  
 🌤 **[View Live Demo →](https://calculator-86en.vercel.app/)**
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 🧠 Project Overview
-
-A weather app built with React and OpenWeather API.  
-🌤 **[View Live Demo →](https://weather-app-pi-jet-24.vercel.app/)**
