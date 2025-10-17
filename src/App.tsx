@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Calculator from "@/components/calculator";
+import Calculator from "@/components/Calculator";
 import ThemeToggle from "@/components/ThemeToggle";
 
 export default function Home() {
